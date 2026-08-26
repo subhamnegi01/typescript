@@ -9,4 +9,8 @@ let str = "Rahul";
 let isTrue = true;
 // Bigint
 let bigIntNum = 9007199254740991n;
+// null
+let abc = null;
+// undefined
+let xyz = undefined;
 //# sourceMappingURL=app.js.map

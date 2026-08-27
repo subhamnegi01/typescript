@@ -15,3 +15,6 @@ console.log(val2.toUpperCase())
 if(typeof val2 === "string") {
     console.log(val2.toUpperCase())
 }
+
+let arr:number[] = [1, 2, 3]
+

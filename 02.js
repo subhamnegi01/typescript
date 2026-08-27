@@ -11,4 +11,5 @@ console.log(val2.toUpperCase());
 if (typeof val2 === "string") {
     console.log(val2.toUpperCase());
 }
+let arr = [1, 2, 3];
 //# sourceMappingURL=02.js.map

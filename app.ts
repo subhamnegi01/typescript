@@ -11,13 +11,10 @@ let str:string = "Rahul"
 let isTrue:boolean = true
 
 // Bigint
-
 let bigIntNum:bigint = 9007199254740991n
 
 // null
-
 let abc:null = null
 
 // undefined
-
 let xyz:undefined = undefined

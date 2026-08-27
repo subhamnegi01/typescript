@@ -4,13 +4,10 @@
 let a:number = 10
 let b:number = 20
 
-
-
 // String
 let str:string = "Rahul"
 
 // Boolean
-
 let isTrue:boolean = true
 
 // Bigint

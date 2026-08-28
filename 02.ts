@@ -18,3 +18,10 @@ if(typeof val2 === "string") {
 
 let arr:number[] = [1, 2, 3, 4]
 
+
+let obj: { name: string; age: number; gender: string } = {
+    name: "Rahul",
+    age: 20,
+    gender: "Male"
+}
+

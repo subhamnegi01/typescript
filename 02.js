@@ -11,5 +11,10 @@ console.log(val2.toUpperCase());
 if (typeof val2 === "string") {
     console.log(val2.toUpperCase());
 }
-let arr = [1, 2, 3];
+let arr = [1, 2, 3, 4];
+let obj = {
+    name: "Rahul",
+    age: 20,
+    gender: "Male"
+};
 //# sourceMappingURL=02.js.map

@@ -36,3 +36,15 @@ let c1 : customer = {
     age: 20,
     id: "abc"
 }
+
+interface admin {
+    name: string;
+    age: number;
+    position: string;
+}
+
+let obj2 : admin = {
+    name: "Ravi",
+    age: 20,
+    position: "Manager"
+}

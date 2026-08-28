@@ -17,4 +17,14 @@ let obj = {
     age: 20,
     gender: "Male"
 };
+let c1 = {
+    name: "Rahul",
+    age: 20,
+    id: "abc"
+};
+let obj2 = {
+    name: "Ravi",
+    age: 20,
+    position: "Manager"
+};
 //# sourceMappingURL=02.js.map

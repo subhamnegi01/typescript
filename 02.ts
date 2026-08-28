@@ -25,3 +25,14 @@ let obj: { name: string; age: number; gender: string } = {
     gender: "Male"
 }
 
+type customer ={
+    name: string;
+    age: number;
+    id: string;
+}
+
+let c1 : customer = {
+    name: "Rahul",
+    age: 20,
+    id: "abc"
+}

@@ -45,4 +45,18 @@ const sum = (a, b) => {
     return a + b;
 };
 console.log(sum(3, 4));
+function palceOrder(order, callback) {
+    const amount = order + 10;
+    callback(amount);
+}
+palceOrder(10, (amount) => {
+    console.log(amount);
+});
+// Rest Parameter
+function total(...arr) {
+    let ans = 0;
+    arr.forEach((val) => ans = ans + val);
+    console.log(ans);
+}
+total(1, 2, 3, 43, 2, 364);
 //# sourceMappingURL=first.js.map

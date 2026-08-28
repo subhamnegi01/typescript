@@ -86,3 +86,41 @@ const sum=(a:number,b:number):number=>{
     return a+b
 }
 console.log(sum(3,4))
+
+
+
+
+// Callback Function
+
+type A = (amount:number)=>void
+
+function palceOrder(order:number, callback:A):void{
+
+    const amount:number= order+10
+    callback(amount)
+}
+
+palceOrder(10,(amount)=>{
+    console.log(amount)
+})
+
+
+
+// Rest Parameter
+
+function total (...arr:number[]){
+    let ans:number = 0
+    arr.forEach((val:number)=>ans = ans+val)
+    console.log(ans)
+}
+
+total(1,2, 3, 43, 2, 364)
+
+
+
+
+
+
+
+
+
